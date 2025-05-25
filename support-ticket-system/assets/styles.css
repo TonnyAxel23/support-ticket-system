@@ -1,0 +1,195 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 1rem 0;
+    border-bottom: #e8491d 3px solid;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 1.5rem;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #e8491d;
+    font-weight: bold;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+main {
+    padding: 2rem;
+    min-height: 80vh;
+}
+
+footer {
+    background: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+/* Form Styles */
+.form-container {
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.btn {
+    display: inline-block;
+    background: #35424a;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #e8491d;
+}
+
+/* Ticket Styles */
+.ticket-list {
+    list-style: none;
+    padding: 0;
+}
+
+.ticket-item {
+    background: #ffffff;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.ticket-item h3 {
+    margin-top: 0;
+}
+
+.ticket-meta {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.status-open {
+    color: #28a745;
+}
+
+.status-in_progress {
+    color: #ffc107;
+}
+
+.status-closed {
+    color: #dc3545;
+}
+
+.priority-low {
+    color: #17a2b8;
+}
+
+.priority-medium {
+    color: #007bff;
+}
+
+.priority-high {
+    color: #dc3545;
+}
+
+/* Reply Styles */
+.reply-list {
+    list-style: none;
+    padding: 0;
+}
+
+.reply-item {
+    background: #f8f9fa;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 4px;
+    border-left: 4px solid #35424a;
+}
+
+.reply-meta {
+    font-size: 0.8rem;
+    color: #666;
+}
+
+/* Add to CSS file */
+.status-badge {
+    font-size: 0.8rem;
+    padding: 0.2rem 0.5rem;
+    border-radius: 3px;
+    margin-left: 0.5rem;
+    background-color: #f8f9fa;
+}
+
+.status-open {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.status-in_progress {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.status-closed {
+    background-color: #f8d7da;
+    color: #721c24;
+}
